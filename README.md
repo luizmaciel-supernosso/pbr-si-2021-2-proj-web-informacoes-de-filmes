@@ -1,18 +1,19 @@
-# Nome do projeto
+# Informações de Filmes
 
 Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Arthur Morais Pimenta
+* Gustavo Novaes Melo
+* Luiz Pedro Amorim Silva Maciel
+* Paulo Sério Ferreira Barbosa
+* Thiago Gomes Teixeira
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Ivre Marjorie Ribeiro Machado
+* Sandra Maria Silveira
 
 ## Instruções de utilização
 
