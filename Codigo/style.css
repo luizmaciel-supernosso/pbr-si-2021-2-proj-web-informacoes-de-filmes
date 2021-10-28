@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+header{
+    background: #664cd8;
+    height: auto;
+    color: #fff;
+}
+header div{
+    margin: 0 auto;
+    width: 85%;
+    padding: 1em 0em;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 600px){
+    header div{
+        width: 90%;
+    }
+}
+header div a{
+    color: #fff;
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.titulo{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.4em;
+    margin-left: 0;
+    font-weight: normal;
+}
+@media (max-width: 600px){
+    header div a{
+        font-size: 1em;
+    }
+}
+
+h1{
+    color: #2f2f2f;
+    text-align: left;
+    font-size: 2.5em;
+    width: 85%;
+    margin: 1em auto;
+    border-bottom: solid #2f2f2f;
+    padding-bottom: 0.5em;
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+#popularesDaSemana, #gridResultadoPesquisa{
+    margin: 3em auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3em;
+    list-style: none;
+}
+
+@media (max-width: 600px){
+    #popularesDaSemana, #gridResultadoPesquisa{
+        grid-template-columns: 1fr;
+        width: 90%;
+        grid-gap: 2em;
+        margin: 2em auto;
+    }
+}
+
+.containerFilme{
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 1px rgba(00,00,00,0.2);
+
+}
+@media (max-width: 600px){
+    .containerFilme{
+        flex-direction: column-reverse;
+        padding-top: 1em;
+    }
+}
+.containerFilme img{
+    height: auto;
+    width: 30%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+@media (max-width: 600px){
+    .containerFilme img{
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        margin-bottom: 2em;
+    }
+}
+
+.containerFilme h2{
+    color: #2f2f2f;
+}
+.containerInfos{
+    padding: 1em;
+}
+.containerInfos p{
+    margin-top: 1em;
+}
+@media (max-width: 600px){
+    .containerInfos p{
+        font-size: 0.8em;
+    }
+}
+.tipo{
+    color: #664cd8;
+    padding: 0.4em 1em;
+    width: fit-content;
+    border-radius: 10px;
+    border: solid 2px #664cd8;
+    font-weight: bold;
+}
+.botaovejamais{
+    margin-top: 1em;
+    cursor: pointer;
+    color: #fff;
+    background-image: linear-gradient(to right, #9975d0, #8b67d2, #7a59d5, #664cd8, #4a3fdb);
+    font-size: 1em;
+    padding: 0.9em 2em;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 8px 1px rgba(00,00,00,0.2);
+}
+
+@media (max-width: 600px){
+    .botaovejamais{
+        font-size: 0.8em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+
+    }
+}
+
+
+.inputPesquisa {
+    flex: 1;
+    height: 4em;
+    padding: 0 24px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    color: #3a3a3a;
+    border: 2px solid #ffffff;
+    border-right: 0;
+}
+.inputPesquisa::placeholder{
+    color: #a8a8b3;
+}
+
+.botaoPesquisa {
+    width: fit-content;
+    height: 4em;
+    padding: 0em 1em;
+    background: #664cd8;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.botaoPesquisa:hover{
+    background-color:#4a3fdb;
+}
+
+
+#form{
+    width: 50%;
+    margin: 3em auto;
+    display: flex;
+}
+
+@media (max-width: 600px){
+    #form{
+        width: 90%;
+    }
+}
