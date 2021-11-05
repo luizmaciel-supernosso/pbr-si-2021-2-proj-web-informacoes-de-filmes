@@ -2,6 +2,8 @@
 
 O nosso projeto é um site de pesquisa de filmes. Nele é possível procurar um filme pelo nome e encontrar todas as informações sobre ele, além de poder ver quais são os filmes mais poulares da semana.
 
+Link do protótipo base: https://www.figma.com/file/5pq2awwJrQ4Ag7RYvSpfM2/TI-AW?node-id=0%3A1
+
 ## Alunos integrantes da equipe
 
 * Arthur Morais Pimenta
