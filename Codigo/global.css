@@ -7,9 +7,18 @@
     list-style: none;
     text-decoration: none;
 }
+.cabeçalho{
+    text-align: left;
+}
 
 body{
-    font: 400 1em Ubuntu, sans-serif;
-    background: #f0f0f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     -webkit-font-smoothing: antialiased;
+    background-color:rgb(252, 247, 247);
+}
+footer{
+    padding: 3%;
+    text-align: center;
+    background-color: rgba(197, 190, 182, 0.192);
+    
 }

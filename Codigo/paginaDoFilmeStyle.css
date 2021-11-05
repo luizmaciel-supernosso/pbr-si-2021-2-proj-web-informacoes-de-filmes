@@ -19,18 +19,6 @@ img{
 
 }
 
-body{
-
-    font-family: Arial, sans-serif;
-
-    background-color:rgb(204, 204, 204);
-    word-wrap: break-word;
-
-    display:flex;
-
-    margin-left: 20px;
-}
-
 h3{
     margin: 0px;
     margin-top: 20px;
