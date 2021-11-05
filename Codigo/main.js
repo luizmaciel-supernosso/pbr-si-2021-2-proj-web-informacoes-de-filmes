@@ -19,7 +19,7 @@ async function fetchDadosComplexosDoFilme(id){
     let urlDadosCompletos = `/movie/${id}?api_key=${apiKey}&language=pt-BR`
     return fetch(`${baseUrl}${urlDadosCompletos}`)
     .then(resp => resp.json())
-    .then(dados => window.location.href = dados.homepage)
+    .then(dados => dados)
     .catch(err => console.error(err))
 }
 
@@ -72,7 +72,9 @@ function criaGrid(dados){
     botaoVejaMais.forEach(botao => {
         botao.addEventListener('click', async(e) => {
             let filmeId = e.target.attributes["data-idFilme"].value;
-            await fetchDadosComplexosDoFilme(filmeId) 
+            let dados = await fetchDadosComplexosDoFilme(filmeId);
+            localStorage.setItem('dadosDoFilmeSelecionado', JSON.stringify(dados));
+            window.location.href = 'paginaDoFilme.html'
         })
     })  
 }
