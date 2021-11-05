@@ -1,6 +1,6 @@
 # Informações de Filmes
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O nosso projeto é um site de pesquisa de filmes. Nele é possível procurar um filme pelo nome e encontrar todas as informações sobre ele, além de poder ver quais são os filmes mais poulares da semana.
 
 ## Alunos integrantes da equipe
 
